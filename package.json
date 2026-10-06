@@ -1,0 +1,25 @@
+{
+  "name": "@tscircuit/jlcpcb-stackups",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "module": "lib/index.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write .",
+    "formatcheck": "biome format ."
+  },
+  "dependencies": {
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/bun": "1.4.2",
+    "typescript": "5.9.3"
+  }
+}

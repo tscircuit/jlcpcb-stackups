@@ -1,0 +1,56 @@
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
+
+exports[`expands copper and dielectric geometry to Circuit JSON without invented quantities 1`] = `
+{
+  "nominal_board_thickness_mm": 1.2,
+  "num_layers": 4,
+  "physical_thickness_mm": 1.15,
+  "revision": "jlcpcb-2026-10-06-2860f88c60d49433e82552e224f2caf2d0fe1f179e632e15f90a2b70238c0fd3",
+  "stackup": {
+    "layers": [
+      {
+        "layer": "top",
+        "thickness_mm": 0.04,
+        "type": "copper",
+      },
+      {
+        "dielectric_type": "prepreg",
+        "material": "synthetic-glass*2",
+        "thickness_mm": 0.2,
+        "type": "dielectric",
+      },
+      {
+        "layer": "inner1",
+        "thickness_mm": 0.02,
+        "type": "copper",
+      },
+      {
+        "dielectric_type": "core",
+        "thickness_mm": 0.63,
+        "type": "dielectric",
+      },
+      {
+        "layer": "inner2",
+        "thickness_mm": 0.02,
+        "type": "copper",
+      },
+      {
+        "dielectric_type": "prepreg",
+        "material": "synthetic-glass*2",
+        "thickness_mm": 0.2,
+        "type": "dielectric",
+      },
+      {
+        "layer": "bottom",
+        "thickness_mm": 0.04,
+        "type": "copper",
+      },
+    ],
+    "manufacturer": "JLCPCB",
+    "manufacturer_stackup_id": "SYNTHETIC-4L",
+    "source": "specified",
+    "source_url": "https://jlcpcb.com/impedance",
+  },
+  "template_code": "synthetic-code-1",
+}
+`;
